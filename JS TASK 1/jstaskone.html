@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+       <link rel="stylesheet" href="jstaskone.css">
+
+    <title>jstaskone</title>
+</head>
+<body >
+
+    <div class="">
+
+        <div class="card card mt-5 p-5 w-80 shadow-lg d-flex justify-content-center container">
+
+            <h1 class="  text-center bg-color ">From</h1>
+           
+                <table class="mt-5">
+                    <tr>
+                        <th class=" col-lg-3  " > First Name</th>
+                        <td><input class="w-120  col-lg-6" id="txt" type="text" placeholder="Enter your Name" onkeyup="inp()" /> <span id="sp1">*****</span><br></td>
+                       
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 ">Last Name</th>
+                        <td><input class="w-120  col-lg-6"  type="text"  id="txt1" placeholder="Last Name"  /></td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 ">Age</th>
+                        <td><input class="w-120  col-lg-6" type="text" id="age" placeholder="Age" /></td>
+                    </tr>
+
+                    <tr>
+                        <th class=" col-lg-3 ">Date of birth</th>
+                        <td><input class="w-120  col-lg-6" type="date" id="dob" placeholder="Date of birth" /></td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 " >Gender</th>
+                        <td><input class="w-120  col-lg-6" type="text "  id="gen" placeholder=" Gender"/></td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 " >Email</th>
+                        <td><input class="w-120  col-lg-6" type="email" id="eml" placeholder="Enter your Mail" onkeyup="email()" /> <span id="sp2">*****</span><br></td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 " >Password</th>
+                        <td><input class="w-120  col-lg-6" type="text " id="pws" placeholder="Enter your password" onkeyup="pass() "/><span id="sp3">*****</span><br></td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 " >Mobile Number</th>
+                        <td><input class="w-120  col-lg-6" type="number" id="mbl"  placeholder="Enter your mobile number" onkeyup="mobile()"/> <span id="sp4">*****</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 " >City</th>
+                        <td><input class="w-120  col-lg-6" type="text " id="city"  placeholder="City" /></td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 " >State</th>
+                        <td><input class="w-120  col-lg-6" type="text " id="state" placeholder="State"  /></td>
+                    </tr>
+                    <tr>
+                        <th class=" col-lg-3 " >Github Link</th>
+                        <td><input class="w-120  col-lg-6" type="text "  id="link" placeholder="Gitbub Link" /></td>
+                    </tr>
+                </table>
+                <div class="text-center m-3 ">
+                    <button class="btn1 "  onclick="sub()">Submit</button>
+                </div>
+      
+        </div>
+    </div><br><br>
+    <div class="justify-content-center container">
+         <table id="tbl"  >
+            <tbody >
+                  <thead id="tbl1">
+                       <th> First Name </th> 
+                        <th>Last Name</th>
+                         <th>age</th>
+                          <th>date of birth</th>
+                          <th>Gender</th>
+                          <th>Email</th>
+                          <th>Password</th>
+                          <th>Mobile Number</th>
+                          <th>City</th>
+                          <th>State</th> 
+                          <th>Link</th>
+                        </thead>
+               </tbody>
+        </table>
+    </div>
+
+    <script src="jstaskone.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

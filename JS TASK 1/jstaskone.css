@@ -1,0 +1,12 @@
+.bg-color{
+   color: aqua;
+}
+.btn1{
+    background-color: green;
+    border: none;
+}
+#tbl1{
+    border:2px;
+    color: black;
+    background-color: blueviolet;
+}
